@@ -54,6 +54,13 @@ footer p {
 
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
 
-.card img{
-    background-size: cover!important;
+.card-img-top{
+    transition: transform .2s;
+}
+
+.card-img-top:hover{
+    transform: scale(1.1);
+}
+.navbar-image{
+    background-color: transparent;
 }
