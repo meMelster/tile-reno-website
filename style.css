@@ -61,6 +61,6 @@ footer p {
 .card-img-top:hover{
     transform: scale(1.1);
 }
-.navbar-image{
-    background-color: transparent;
+.trans-image{
+    background: transparent!important;
 }
